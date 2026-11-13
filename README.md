@@ -1,6 +1,29 @@
 # Settings Tweaks English Translation v1.0
 
-English text for 49 labels and menu fragments in the 设置补正 (Settings Tweaks) mod for Fire Emblem: Fortune’s Weave. This package contains the translation patcher and README. Obtain the original mod separately.
+English text for 49 labels and menu fragments in the 设置补正 (Settings Tweaks) mod for Fire Emblem: Fortune’s Weave. The translation requires the original Settings Tweaks mod. This repo also includes the separate [Perfect Map Search Yield](#perfect-map-search-yield) add-on.
+
+## Perfect Map Search Yield
+
+This optional add-on gives direct world-map **Search** the reward yield of a **Perfect** result, using the spot’s own loot pool. Items can still vary. **Deploy to Search** for battalions follows the regular rules.
+
+Tested in-game by me on Fortune’s Eden v1.6.8.6 with English Settings Tweaks and adaptive 60 FPS. The patch targets game executable build **DB93B0125F4850601D61C3EDDE012F8EB2ECFE77**.
+
+### Install and turn it on
+
+1. On the [GitHub repo page](https://github.com/limmieo/settings-tweaks-english), choose **Code → Download ZIP**, then extract it.
+2. Stop Fire Emblem if it is running. On the Fortune’s Eden home screen, open **Game Settings → Add-Ons**.
+3. Choose **Import Mod from Folder** and select the extracted [Perfect Map Search Yield](Perfect%20Map%20Search%20Yield) folder that contains **exefs**.
+4. Check **Perfect Map Search Yield** in **Add-Ons**, save the settings, and launch the game. Use **Search** at a spot on the world map.
+5. To disable it, stop the game, uncheck **Perfect Map Search Yield** in **Add-Ons**, then launch again.
+
+For a manual install, copy the whole **Perfect Map Search Yield** folder into the game’s mod directory. In the default portable setup, the patch ends up at:
+
+~~~
+user/load/04007EF01F8AE000/Perfect Map Search Yield/exefs/Perfect-Map-Search-Yield.pchtxt
+~~~
+
+The add-on can be enabled independently of Settings Tweaks. The toggle is in the emulator’s **Add-Ons** tab.
+
 
 ## Credits
 
